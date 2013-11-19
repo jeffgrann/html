@@ -1,0 +1,53 @@
+{
+    "name": "html",
+    "version": "1.0.0",
+    "description": "Provides utilities for working with HTML.",
+    "main": "./WakandaProject/html/Modules/html.js",
+    "keywords": [
+        "wakanda",
+        "javascript",
+        "HTML"
+        ],
+    "author": {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
+    },
+    "maintainers": [
+        {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
+    }
+    ],
+    "contributors": [
+        ],
+    "bugs": {
+        "web": "https://github.com/jeffgrann/html/issues"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "https://github.com/jeffgrann/html/blob/master/LICENSE"
+    }
+    ],
+    "repositories": [
+        {
+        "type": "git",
+        "url": "https://github.com/jeffgrann/html"
+    }
+    ],
+    "dependencies": {
+        "string": {
+      "url": "https://github.com/jeffgrann/string",
+      "version": "1.0.1"
+    },
+    "server-side": {
+            "wakanda": "6.146205"
+        },
+        "browser-side": {
+            "requireJS": "2.1.8"
+        }
+    },
+    "os": ["linux", "macos", "win"],
+    "engines": ["wakanda"
+                  ]
+}
